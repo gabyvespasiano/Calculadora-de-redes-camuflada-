@@ -30,7 +30,7 @@
         End If
 
 
-        Label1.Text = Split(TextBox2.Text, "1").Count - 1
+        Label1.Text = Split(TextBox2.Text, "1").Count - 1 'es el texto que va en /  ejemplo 192.168.1.0 /24  255.255.255.0
         Dim h As String
         For k = 0 To Split(TextBox2.Text, "0").Count - 2
             h += "1"
@@ -40,7 +40,7 @@
     End Sub
 
     Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
-        Label4.Text = TextBox2.Text
+        Label4.Text = TextBox2.Text 'mascara en binario
     End Sub
     Dim arr As New ArrayList
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -117,7 +117,7 @@
             Next
 
 
-            Label2.Text = Convert.ToInt32(h, 2) - 1.ToString
+            Label2.Text = Convert.ToInt32(h, 2) - 1.ToString ' cantidad de host que soporta esa red en total
             Label2.Text = "0"
             For i = 0 To arr.Count - 1
                 If Int(Label2.Text) > Int(TextBox1.Text) Then
@@ -182,7 +182,7 @@
                 last = Split(TextBox2.Text, ".")(i)
             End If
         Next
-        Label7.Text = ((256 - Convert.ToInt32(last, 2)).ToString)
+        Label7.Text = ((256 - Convert.ToInt32(last, 2)).ToString) ' para calcular el salto
     End Sub
 
 
@@ -191,7 +191,7 @@
     End Sub
 
     Private Sub TextBox3_TextChanged(sender As Object, e As EventArgs) Handles TextBox3.TextChanged
-        Label5.Text = TextBox3.Text
+        Label5.Text = TextBox3.Text 'mascara en decimal
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
