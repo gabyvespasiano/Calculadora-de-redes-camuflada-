@@ -1,0 +1,24 @@
+H:\Projects\calculator\calculator\bin\Release\calculator.exe.config
+H:\Projects\calculator\calculator\bin\Release\calculator.exe
+H:\Projects\calculator\calculator\bin\Release\calculator.pdb
+H:\Projects\calculator\calculator\bin\Release\calculator.xml
+H:\Projects\calculator\calculator\obj\Release\calculator.Form1.resources
+H:\Projects\calculator\calculator\obj\Release\calculator.Resources.resources
+H:\Projects\calculator\calculator\obj\Release\calculator.vbproj.GenerateResource.Cache
+H:\Projects\calculator\calculator\obj\Release\calculator.exe
+H:\Projects\calculator\calculator\obj\Release\calculator.xml
+H:\Projects\calculator\calculator\obj\Release\calculator.pdb
+H:\Projects\calculator\calculator\obj\Release\calculator.vbprojResolveAssemblyReference.cache
+F:\backup\disco 1tb\Projects\calculator\calculator\bin\Release\calculator.exe.config
+F:\backup\disco 1tb\Projects\calculator\calculator\bin\Release\calculator.exe
+F:\backup\disco 1tb\Projects\calculator\calculator\bin\Release\calculator.pdb
+F:\backup\disco 1tb\Projects\calculator\calculator\bin\Release\calculator.xml
+F:\backup\disco 1tb\Projects\calculator\calculator\obj\Release\calculator.vbproj.AssemblyReference.cache
+F:\backup\disco 1tb\Projects\calculator\calculator\obj\Release\calculator.vbproj.SuggestedBindingRedirects.cache
+F:\backup\disco 1tb\Projects\calculator\calculator\obj\Release\calculator.Form1.resources
+F:\backup\disco 1tb\Projects\calculator\calculator\obj\Release\calculator.Resources.resources
+F:\backup\disco 1tb\Projects\calculator\calculator\obj\Release\calculator.vbproj.GenerateResource.cache
+F:\backup\disco 1tb\Projects\calculator\calculator\obj\Release\calculator.vbproj.CoreCompileInputs.cache
+F:\backup\disco 1tb\Projects\calculator\calculator\obj\Release\calculator.exe
+F:\backup\disco 1tb\Projects\calculator\calculator\obj\Release\calculator.xml
+F:\backup\disco 1tb\Projects\calculator\calculator\obj\Release\calculator.pdb

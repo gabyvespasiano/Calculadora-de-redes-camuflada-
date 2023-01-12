@@ -1,0 +1,24 @@
+H:\Projects\calculator\calculator\bin\Debug\calculator.exe.config
+H:\Projects\calculator\calculator\bin\Debug\calculator.exe
+H:\Projects\calculator\calculator\bin\Debug\calculator.pdb
+H:\Projects\calculator\calculator\bin\Debug\calculator.xml
+H:\Projects\calculator\calculator\obj\Debug\calculator.vbprojResolveAssemblyReference.cache
+H:\Projects\calculator\calculator\obj\Debug\calculator.Form1.resources
+H:\Projects\calculator\calculator\obj\Debug\calculator.Resources.resources
+H:\Projects\calculator\calculator\obj\Debug\calculator.vbproj.GenerateResource.Cache
+H:\Projects\calculator\calculator\obj\Debug\calculator.exe
+H:\Projects\calculator\calculator\obj\Debug\calculator.xml
+H:\Projects\calculator\calculator\obj\Debug\calculator.pdb
+F:\backup\disco 1tb\Projects\calculator\calculator\bin\Debug\calculator.exe.config
+F:\backup\disco 1tb\Projects\calculator\calculator\bin\Debug\calculator.exe
+F:\backup\disco 1tb\Projects\calculator\calculator\bin\Debug\calculator.pdb
+F:\backup\disco 1tb\Projects\calculator\calculator\bin\Debug\calculator.xml
+F:\backup\disco 1tb\Projects\calculator\calculator\obj\Debug\calculator.vbproj.AssemblyReference.cache
+F:\backup\disco 1tb\Projects\calculator\calculator\obj\Debug\calculator.vbproj.SuggestedBindingRedirects.cache
+F:\backup\disco 1tb\Projects\calculator\calculator\obj\Debug\calculator.Form1.resources
+F:\backup\disco 1tb\Projects\calculator\calculator\obj\Debug\calculator.Resources.resources
+F:\backup\disco 1tb\Projects\calculator\calculator\obj\Debug\calculator.vbproj.GenerateResource.cache
+F:\backup\disco 1tb\Projects\calculator\calculator\obj\Debug\calculator.vbproj.CoreCompileInputs.cache
+F:\backup\disco 1tb\Projects\calculator\calculator\obj\Debug\calculator.exe
+F:\backup\disco 1tb\Projects\calculator\calculator\obj\Debug\calculator.xml
+F:\backup\disco 1tb\Projects\calculator\calculator\obj\Debug\calculator.pdb
