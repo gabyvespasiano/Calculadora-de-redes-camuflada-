@@ -1,46 +1,43 @@
 ﻿Public Class Form1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
+        'Llamado a la función mascara al hacer clic en el botón
         mascara(TextBox1.Text)
-
     End Sub
     Private Sub mascara(masc As String)
-        TextBox2.Text = ""
+        TextBox2.Text = "" 'Limpie el contenido del cuadro de texto 2
         Dim i As Integer
         Dim s As String
+        'Verificar si el texto contiene "."
         If masc.Contains(".") Then
             For j = 0 To Split(masc, ".").Count - 1
                 i = Split(masc, ".")(j)
+                'Convertir el número a binario y asegurar que tenga 8 bits con "0"s a la izquierda
                 s = Convert.ToString(i, 2).PadLeft(8, "0"c) '32 bits
                 If j = Split(masc, ".").Count - 1 Then
                     TextBox2.Text += s
-
                 Else
                     TextBox2.Text += s & "."
-
                 End If
-
             Next
-
-
         Else
             i = Int(masc)
+            'Convertir el número a binario y asegurar que tenga 8 bits con "0"s a la izquierda
             s = Convert.ToString(i, 2).PadLeft(8, "0"c) '32 bits
             TextBox2.Text = s
         End If
-
-
+        'Calculo de la máscara en formato "/xx"
         Label1.Text = Split(TextBox2.Text, "1").Count - 1 'es el texto que va en /  ejemplo 192.168.1.0 /24  255.255.255.0
         Dim h As String
         For k = 0 To Split(TextBox2.Text, "0").Count - 2
             h += "1"
         Next
-
+        'Calculo del número máximo de direcciones que pueden ser asignadas
         Label2.Text = Convert.ToInt32(h, 2) - 1.ToString
     End Sub
 
     Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
-        Label4.Text = TextBox2.Text 'mascara en binario
+        'Asignar el contenido del cuadro de texto 2 a la etiqueta 4 (máscara en binario)
+        Label4.Text = TextBox2.Text 
     End Sub
     Dim arr As New ArrayList
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
